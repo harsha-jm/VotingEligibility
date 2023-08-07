@@ -1,0 +1,6 @@
+name : "Vote Eligibility1"
+description : "People above and 18 years are eligible to vote"
+priority : 1
+condition : "Double.parseDouble(person.getAge()) >= 18"
+actions :
+  - "result = \"You are eligible to vote\" "

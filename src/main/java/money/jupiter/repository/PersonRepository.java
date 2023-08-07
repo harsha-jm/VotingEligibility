@@ -1,0 +1,8 @@
+package money.jupiter.repository;
+
+import money.jupiter.models.Person;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PersonRepository extends JpaRepository<Person,String> {
+
+}
